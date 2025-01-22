@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartfelt Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Heartfelt 3D Image Gallery</h1>
+    </header>
+    
+    <nav>
+        <select id="sectionDropdown">
+            <option value="section1">Memorable Moments</option>
+            <option value="section2">Nature's Beauty</option>
+        </select>
+    </nav>
+    
+    <div class="gallery" id="section1">
+        <div class="card">
+            <img src="https://i.pinimg.com/474x/2b/b6/1c/2bb61c14d92c39c67ff5f167cf6b425a.jpg" alt="Image 1">
+            <div class="card-content">
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/474x/dc/7c/7a/dc7c7add061ab458ab0f10812f979355.jpg" alt="Image 2">
+            <div class="card-content">
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/474x/cb/c9/44/cbc94419357f453d45966e5cf7a44c52.jpg" alt="Image 3">
+            <div class="card-content">
+            </div>
+        </div>
+    </div>
+    
+    <div class="gallery" id="section2" style="display: none;">
+        <div class="card">
+            <img src="https://i.pinimg.com/474x/09/47/db/0947db859f8bbec51f4f85d030c59b03.jpg" alt="Image 4">
+            <div class="card-content">
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/474x/f8/04/13/f8041363c2099aea5dddf19688b0cf50.jpg" alt="Image 5">
+            <div class="card-content">
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/474x/3d/3d/8d/3d3d8d022866bc2992496caae4f88774.jpg" alt="Image 6">
+            <div class="card-content">
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal" id="modal">
+        <span class="close" id="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div class="caption" id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
